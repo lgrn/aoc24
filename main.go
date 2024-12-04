@@ -6,6 +6,7 @@ import (
 
 	"github.com/lgrn/aoc24/day1"
 	"github.com/lgrn/aoc24/day2"
+	"github.com/lgrn/aoc24/day3"
 )
 
 func main() {
@@ -17,6 +18,8 @@ func main() {
 		fmt.Println(day1.Solve())
 	case 2:
 		fmt.Println(day2.Solve())
+	case 3:
+		fmt.Println(day3.Solve())
 	default:
 		fmt.Printf("No solution available for day %d.\n", *day)
 		fmt.Printf("Use the -d [day] option.\n")
